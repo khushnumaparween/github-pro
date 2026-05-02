@@ -1,0 +1,86 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #0d1117;
+    color: #e6edf3;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+}
+
+
+form{
+    margin-left:38em;
+}
+h2, h3 {
+    text-align: center;
+}
+
+input {
+    padding: 10px;
+    width: 300px;
+    border-radius: 6px;
+    border: none;
+    outline: none;
+}
+
+button {
+    padding: 10px 15px;
+    border: none;
+    background: #238636;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #2ea043;
+}
+
+.card {
+    background: #161b22;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.card img {
+    border-radius: 50%;
+}
+
+a {
+    color: #58a6ff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.repo-card {
+    background: #161b22;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.lang-box {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+
+.lang-item {
+    background: #21262d;
+    padding: 8px 12px;
+    border-radius: 20px;
+}
